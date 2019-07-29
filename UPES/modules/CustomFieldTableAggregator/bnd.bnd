@@ -1,0 +1,4 @@
+Bundle-Name: CustomFieldTableAggregator
+Bundle-SymbolicName: CustomFieldTableAggregator
+Bundle-Version: 1.0.0
+Export-Package: CustomFieldTableAggregator.constants

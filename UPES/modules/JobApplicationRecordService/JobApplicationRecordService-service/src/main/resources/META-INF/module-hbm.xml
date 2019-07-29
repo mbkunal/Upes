@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="JobApplicationRecordService.model.Job_Application_Records" />
+	<class name="JobApplicationRecordService.model.impl.Job_Application_RecordsImpl" table="KMB_Job_Application_Records">
+		<composite-id class="JobApplicationRecordService.service.persistence.Job_Application_RecordsPK" name="primaryKey">
+			<key-property name="SapId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+			<key-property name="JobId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		</composite-id>
+		<property name="ApplicationDate" type="org.hibernate.type.TimestampType" />
+		<property name="resume" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

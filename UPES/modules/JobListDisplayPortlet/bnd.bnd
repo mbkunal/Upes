@@ -1,0 +1,4 @@
+Bundle-Name: JobListDisplayPortlet
+Bundle-SymbolicName: JobListDisplayPortlet
+Bundle-Version: 1.0.0
+Export-Package: JobListDisplayPortlet.constants

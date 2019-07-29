@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="JobApplicationRecordService.service.impl.Job_Application_RecordsLocalServiceImpl" id="JobApplicationRecordService.service.Job_Application_RecordsLocalService" />
+	<bean class="JobApplicationRecordService.service.impl.Job_Application_RecordsServiceImpl" id="JobApplicationRecordService.service.Job_Application_RecordsService" />
+	<bean class="JobApplicationRecordService.service.persistence.impl.Job_Application_RecordsPersistenceImpl" id="JobApplicationRecordService.service.persistence.Job_Application_RecordsPersistence" parent="basePersistence" />
+</beans>

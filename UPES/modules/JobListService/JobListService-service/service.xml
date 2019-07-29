@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="JobListService">
+	<namespace>KMB</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+	 <entity name="JobId" local-service="true">
+        <column name="JobId" type="long" primary="true"></column>
+        <column name="Company" type="String"></column>
+        <column name="Post" type="String"></column>
+        <column name="Pay" type="int"></column>
+        <column name="CGPA" type="int"></column>
+        <column name="Description" type="String"></column>
+        <column name="MoreInfo" type="String"></column>
+        <column name="LastDateToApply" type="Date"></column>
+        <column name="CIT" type="boolean"></column>
+        <column name="nonCIT" type="boolean"></column>
+    </entity>
+
+</service-builder>

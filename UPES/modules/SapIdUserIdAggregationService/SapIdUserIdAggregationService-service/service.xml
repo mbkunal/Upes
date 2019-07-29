@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="Aggregation">
+	<namespace>kmb</namespace>
+    <entity name="customFieldAggregationTable" local-service="true">
+        <column name="UserId" type="int" primary="false"></column>
+        <column name="SapId" type="int" primary="true"></column>
+        <column name="Cgpa" type="double"></column>
+        <finder name="findByJobId" return-type="Collection">
+        <finder-column name="SapId"/>
+        </finder>
+    </entity>
+</service-builder>

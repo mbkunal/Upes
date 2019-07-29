@@ -1,0 +1,9 @@
+Bundle-Name: xyz-api
+Bundle-SymbolicName: xyz.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	xyz.exception,\
+	xyz.model,\
+	xyz.service,\
+	xyz.service.persistence
+-includeresource: META-INF/service.xml=../xyz-service/service.xml

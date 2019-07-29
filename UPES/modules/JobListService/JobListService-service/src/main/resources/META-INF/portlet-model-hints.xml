@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="JobListService.model.JobId">
+		<field name="JobId" type="long" />
+		<field name="Company" type="String" />
+		<field name="Post" type="String" />
+		<field name="Pay" type="int" />
+		<field name="CGPA" type="int" />
+		<field name="Description" type="String" />
+		<field name="MoreInfo" type="String" />
+		<field name="LastDateToApply" type="Date" />
+		<field name="CIT" type="boolean" />
+		<field name="nonCIT" type="boolean" />
+	</model>
+</model-hints>

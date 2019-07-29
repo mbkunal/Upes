@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="Aggregation.model.customFieldAggregationTable">
+		<field name="UserId" type="int" />
+		<field name="SapId" type="int" />
+		<field name="Cgpa" type="double" />
+	</model>
+</model-hints>

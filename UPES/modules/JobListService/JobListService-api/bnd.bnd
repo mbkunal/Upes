@@ -1,0 +1,9 @@
+Bundle-Name: JobListService-api
+Bundle-SymbolicName: JobListService.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	JobListService.exception,\
+	JobListService.model,\
+	JobListService.service,\
+	JobListService.service.persistence
+-includeresource: META-INF/service.xml=../JobListService-service/service.xml

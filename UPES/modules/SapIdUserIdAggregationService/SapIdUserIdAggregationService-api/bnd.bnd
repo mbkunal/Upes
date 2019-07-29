@@ -1,0 +1,9 @@
+Bundle-Name: SapIdUserIdAggregationService-api
+Bundle-SymbolicName: Aggregation.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	Aggregation.exception,\
+	Aggregation.model,\
+	Aggregation.service,\
+	Aggregation.service.persistence
+-includeresource: META-INF/service.xml=../SapIdUserIdAggregationService-service/service.xml

@@ -1,0 +1,1 @@
+create index IX_F5E03B55 on KMB_Job_Application_Records (SapId);

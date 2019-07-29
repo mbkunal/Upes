@@ -1,0 +1,9 @@
+Bundle-Name: JobApplicationRecordService-api
+Bundle-SymbolicName: JobApplicationRecordService.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	JobApplicationRecordService.exception,\
+	JobApplicationRecordService.model,\
+	JobApplicationRecordService.service,\
+	JobApplicationRecordService.service.persistence
+-includeresource: META-INF/service.xml=../JobApplicationRecordService-service/service.xml

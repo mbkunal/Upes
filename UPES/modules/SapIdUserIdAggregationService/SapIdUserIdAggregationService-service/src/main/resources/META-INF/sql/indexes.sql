@@ -1,0 +1,1 @@
+create index IX_91C09A71 on kmb_customFieldAggregationTable (SapId);

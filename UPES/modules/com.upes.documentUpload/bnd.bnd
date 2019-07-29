@@ -1,0 +1,4 @@
+Bundle-Name: com.upes.documentUpload
+Bundle-SymbolicName: com.upes.documentUpload
+Bundle-Version: 1.0.0
+Export-Package: com.upes.documentUpload.constants

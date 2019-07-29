@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="JobListService.model.JobId" />
+	<class name="JobListService.model.impl.JobIdImpl" table="KMB_JobId">
+		<id name="JobId" type="long">
+			<generator class="assigned" />
+		</id>
+		<property name="Company" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="Post" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="Pay" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+		<property name="CGPA" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+		<property name="Description" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="MoreInfo" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="LastDateToApply" type="org.hibernate.type.TimestampType" />
+		<property name="CIT" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="nonCIT" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="JobApplicationRecordService.model.Job_Application_Records">
+		<field name="SapId" type="long" />
+		<field name="JobId" type="long" />
+		<field name="ApplicationDate" type="Date" />
+		<field name="resume" type="String" />
+	</model>
+</model-hints>
